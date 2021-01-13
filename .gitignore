@@ -1,6 +1,7 @@
 .Rproj.user
 notepad.txt
 data/
+build_package.R
 R/build_package.R
 .Rhistory
 .RData
