@@ -2,7 +2,7 @@
 % Please edit documentation in R/add_quotes.R
 \name{add_quotes}
 \alias{add_quotes}
-\title{Title}
+\title{Add escaped quotes around a string}
 \usage{
 add_quotes(x)
 }
@@ -13,5 +13,9 @@ add_quotes(x)
 the same string but enclosed with quotes
 }
 \description{
-Title
+This may be useful e.g. in preparing a Linux command to be
+invoked via system()
+}
+\examples{
+add_quotes("x")=='\"x\"'
 }
