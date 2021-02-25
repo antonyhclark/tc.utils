@@ -2,6 +2,7 @@
 
 export("%>%")
 export(add_quotes)
+export(get_HSCP_Loc_DZ11_lookup)
 export(get_pop_data)
 export(make_head_file)
 export(win_to_lin)
