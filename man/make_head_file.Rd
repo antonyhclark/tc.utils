@@ -8,7 +8,7 @@ a smaller file from a bigger one. This may be of use, e.g.,
 to create a .csv file small enough to inspect in Excel from
 a very large one.}
 \usage{
-make_head_file(big_file_path, n_rows = 10000)
+make_head_file(big_file_path, n_rows = 1000)
 }
 \arguments{
 \item{big_file_path}{the full path to a large file (e.g. .csv file)}
@@ -26,5 +26,8 @@ to create a .csv file small enough to inspect in Excel from
 a very large one.
 }
 \examples{
-big_file_path("/conf/LIST_analytics/Glasgow City/Training/TC/big_file.csv")
+write.csv(x=data.frame(v1=rnorm(n=1e6),
+v2=rnorm(n=1e6)),
+file="~/dummy_data.csv")
+make_head_file("~/dummy_data.csv")
 }
