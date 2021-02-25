@@ -18,3 +18,6 @@ a tibble holding the data from the lookup file
 \description{
 Get HSCP-Locality-DZ11 lookup file
 }
+\examples{
+get_HSCP_Loc_DZ11_lookup()
+}
