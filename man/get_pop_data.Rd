@@ -19,5 +19,5 @@ Population data in long format in tibble
 Get DataZone population file from cl-out
 }
 \examples{
-df_pop <-get_pop_data("/conf/linkage/output/lookups/Unicode/Populations/Estimates/DataZone2011_pop_est_2011_2019.rds")
+get_pop_data("/conf/linkage/output/lookups/Unicode/Populations/Estimates/DataZone2011_pop_est_2011_2019.rds")
 }

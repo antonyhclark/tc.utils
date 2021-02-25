@@ -18,4 +18,6 @@ Suggests:
 URL: https://github.com/antonyhclark/tc.utils
 BugReports: https://github.com/antonyhclark/tc.utils/issues
 Imports: 
-    tidyr
+    tidyr,
+    dplyr,
+    magrittr
