@@ -1,7 +1,5 @@
 .Rproj.user
 notepad.txt
 data/
-build_package.R
-add_function_to_package.R
 .Rhistory
 .RData
