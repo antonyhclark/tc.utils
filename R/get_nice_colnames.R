@@ -9,7 +9,7 @@
 #' @examples
 #' my_col_dict <- c("mpg"="Miles per gallon")
 #' names(mtcars) <- get_nice_colnames(names(mtcars),my_col_dict)
-get_nice_colnames <- function(r_names,name_dict){
+get_nice_colnames <- function(name_dict,r_names){
   nice_names <- sapply(r_names, get_value_from_key,key_value_vector=name_dict)
   return(nice_names)
 }
