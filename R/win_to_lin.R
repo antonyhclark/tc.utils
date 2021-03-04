@@ -7,7 +7,8 @@
 #'
 #' @examples
 #' win_to_lin("\\\\Isdsf00d03\\LIST_analytics\\Glasgow City")
-win_to_lin <- function(win_path){
+win_to_lin <- function(win_path=""){
+  if (win_path=""){win_path=readline(prompt = "Enter Windows path: ")}
   tmp_path <- win_path
   # fixed=TRUE seems safer/easier to read when escaping backslash
   # tmp_path <- gsub("\"","",tmp_path,fixed = T)
