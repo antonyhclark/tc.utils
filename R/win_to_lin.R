@@ -10,9 +10,11 @@
 win_to_lin <- function(win_path){
   tmp_path <- win_path
   # fixed=TRUE seems safer/easier to read when escaping backslash
-  tmp_path <- gsub("\"","",tmp_path,fixed = T)
+  # tmp_path <- gsub("\"","",tmp_path,fixed = T)
   tmp_path <- gsub("\\\\","//",tmp_path,fixed=T)
   tmp_path <- gsub("\\","/",tmp_path,fixed=T)
+  tmp_path <- gsub("Isdsf00d03","conf",tmp_path,fixed=T)
+  tmp_path <- gsub("stats","conf",tmp_path,fixed=T)
   # odd case of linkage files directory
   tmp_path <- gsub("/cl-out","/linkage/output",tmp_path)
   tmp_path <- gsub("stats","conf",tmp_path)
