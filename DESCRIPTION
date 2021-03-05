@@ -20,4 +20,5 @@ BugReports: https://github.com/antonyhclark/tc.utils/issues
 Imports: 
     tidyr,
     dplyr,
-    magrittr
+    magrittr,
+    lubridate

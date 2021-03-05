@@ -4,7 +4,7 @@
 \alias{win_to_lin}
 \title{Title}
 \usage{
-win_to_lin(win_path)
+win_to_lin(win_path = "")
 }
 \arguments{
 \item{win_path}{a windows file path}

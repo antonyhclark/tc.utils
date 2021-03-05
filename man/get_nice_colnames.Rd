@@ -5,12 +5,12 @@
 \title{get_nice_colnames
 Rename columns according to named vector}
 \usage{
-get_nice_colnames(r_names, name_dict)
+get_nice_colnames(name_dict, r_names)
 }
 \arguments{
-\item{r_names}{Existing column names}
-
 \item{name_dict}{A named vector mapping existing column names to new names}
+
+\item{r_names}{Existing column names}
 }
 \value{
 
