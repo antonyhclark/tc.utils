@@ -26,5 +26,6 @@ get_pop_data <- function(pop_file_path =
                         "hscp_locality", "intzone2011name", "datazone2011name",
                         "age","sex","pop","hb2019","hscp2019","intzone2011","datazone2011")
   df_pop_long <- df_pop_long %>% dplyr::select(dplyr::all_of(cols_of_interest),dplyr::contains("simd2020"))
+  df_pop_long %<>% mutate(age=as.numeric(age))
   return(df_pop_long)
 }
