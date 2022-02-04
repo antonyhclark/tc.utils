@@ -7,7 +7,7 @@
 # https://stackoverflow.com/questions/22565024/how-to-properly-include-dependencies-in-r-package
 #
 
-
+# dummy change
 
 # Make sure this script is NOT in the R folder!!!
 # It should be in the root project folder
